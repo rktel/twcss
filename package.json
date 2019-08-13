@@ -1,0 +1,25 @@
+{
+  "name": "twcss",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "meteor-node-stubs": "^0.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss": "^6.0.23",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^1.2.0",
+    "tailwindcss": "^1.1.1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-import": {},
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  }
+}
